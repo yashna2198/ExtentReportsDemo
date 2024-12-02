@@ -34,6 +34,7 @@ public class ExtendReportsDemo {
 		System.out.println(driver.getTitle());
 		driver.quit();
 		test.fail("Results do not match");
+		System.out.println("****END***");
 		extent.flush();
 	}
 
