@@ -33,8 +33,10 @@ public class ExtendReportsDemo {
 		driver.get("https://www.google.com/");
 		System.out.println(driver.getTitle());
 		driver.quit();
-		test.fail("Results do not match");
+		test.fail("Results do not match***");
 		System.out.println("****END***");
+		System.out.println("****CARD***");
+		System.out.println("*******");
 		extent.flush();
 	}
 
