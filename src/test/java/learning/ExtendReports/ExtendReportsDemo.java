@@ -36,7 +36,7 @@ public class ExtendReportsDemo {
 		test.fail("Results do not match***");
 		System.out.println("****END***");
 		System.out.println("****CARD***");
-		System.out.println("*******");
+		System.out.println("****Main***");
 		extent.flush();
 	}
 
